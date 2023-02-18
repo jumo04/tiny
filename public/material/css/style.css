@@ -1,0 +1,166 @@
+@font-face {
+    font-family: 'Gibson';
+    src: url('../fonts/Gibson-Regular.eot');
+    src: url('../fonts/Gibson-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gibson-Regular.woff2') format('woff2'),
+        url('../fonts/Gibson-Regular.woff') format('woff'),
+        url('../fonts/Gibson-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@media screen and (min-width: 560px){
+    body, html {
+        width: 27rem;
+        max-width: 27rem;
+        margin: 0 auto;
+      }
+
+    #particles-js {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: hsl(218deg 81% 37%);;
+        background-image: url("");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+
+    .btn-primary{
+        background-color:inherit;
+        color:black;
+    }
+
+    .card{
+        margin-top: 24%;
+    }
+
+
+
+    /* ---- stats.js ---- */
+
+    .count-particles{
+        background: #000022;
+        position: absolute;
+        top: 48px;
+        left: 0;
+        width: 80px;
+        color: #13E8E9;
+        font-size: .8em;
+        text-align: left;
+        text-indent: 4px;
+        line-height: 14px;
+        padding-bottom: 2px;
+        font-family: 'Gibson';
+        font-weight: bold;
+    }
+
+    .js-count-particles{
+        font-size: 1.1em;
+    }
+
+    #stats,
+    .count-particles{
+        -webkit-user-select: none;
+    }
+
+
+    #stats{
+        border-radius: 3px 3px 0 0;
+        overflow: hidden;
+    }
+
+    .count-particles{
+        border-radius: 0 0 3px 3px;
+    }
+
+
+     html {
+        font-size: 1.152rem !important;
+      }
+}
+
+
+
+
+/* ---- reset ---- */
+@media (max-width: 991px){
+    body {
+        position: inherit;
+    }
+}
+
+body {
+  margin: 0;
+  font-family: 'Gibson';
+  font-weight: normal;
+  font-style: normal;
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: hsl(218deg 81% 37%);;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.btn-primary{
+  background-color:inherit;
+  color:black;
+}
+
+.card{
+    margin-top: 24%;
+}
+
+
+
+/* ---- stats.js ---- */
+
+.count-particles{
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13E8E9;
+  font-size: .8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: 'Gibson';
+  font-weight: bold;
+}
+
+.js-count-particles{
+  font-size: 1.1em;
+}
+
+#stats,
+.count-particles{
+  -webkit-user-select: none;
+}
+
+
+#stats{
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+
+.count-particles{
+  border-radius: 0 0 3px 3px;
+}

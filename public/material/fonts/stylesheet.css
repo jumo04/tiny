@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Gibson';
+    src: url('Gibson-Regular.eot');
+    src: url('Gibson-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Gibson-Regular.woff2') format('woff2'),
+        url('Gibson-Regular.woff') format('woff'),
+        url('Gibson-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
